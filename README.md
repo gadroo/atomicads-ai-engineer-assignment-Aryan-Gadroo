@@ -6,7 +6,10 @@ Hello there, fellow digital marketer (or marketing-curious developer)! Tired of 
 
 This Python-powered marketing wizard uses Retrieval-Augmented Generation (RAG) to turn your simple campaign brief into professional-grade Meta ad campaigns that actually work. Just describe your product, audience, and goals—we'll handle the rest!
 
-![Atomic Ads Banner](https://i.imgur.com/OP5Ai8h.png)
+## 📸 CLI Interface
+
+![CLI Screenshot 1](./cli%20images/CLI%20images.jpeg)
+![CLI Screenshot 2](./cli%20images/CLI%20images%202.jpeg)
 
 ## 🏗️ Architecture Decisions: The Method Behind Our Madness
 
