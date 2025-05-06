@@ -1,0 +1,38 @@
+╭────────────────────────────────────────────── 🤖 Response ───────────────────────────────────────────────╮
+│ Meta ads offer various targeting options to help advertisers reach their desired audience effectively.   │
+│ Here are some of the targeting options available:                                                        │
+│                                                                                                          │
+│ ### Audience Size                                                                                        │
+│ - **Awareness campaigns:** Broad audiences (1 million or more people)                                    │
+│ - **Consideration campaigns:** Medium audiences (500,000 to 1 million people)                            │
+│ - **Conversion campaigns:** Narrower audiences (100,000 to 500,000 people)                               │
+│                                                                                                          │
+│ ### Age and Gender                                                                                       │
+│ - It's recommended to avoid overly narrow age ranges unless they are specifically relevant to the        │
+│ product or service being advertised.                                                                     │
+│ - Broad gender targeting is suggested unless the product is gender-specific.                             │
+│                                                                                                          │
+│ ### Location Targeting                                                                                   │
+│ - **Country targeting:** Suitable for achieving a broad reach.                                           │
+│ - **Region/state targeting:** Ideal for regional businesses looking to target customers in specific      │
+│ states or regions.                                                                                       │
+│ - **City targeting:** Best for local businesses, typically targeting within a 10-25 mile radius.         │
+│                                                                                                          │
+│ ### Interest Targeting                                                                                   │
+│ - Advertisers can combine interests to reach people with multiple relevant interests.                    │
+│ - Detailed Targeting Expansion can be used to find more relevant audiences.                              │
+│ - It's important to remove interests that overlap significantly to avoid narrowing the audience too      │
+│ much.                                                                                                    │
+│                                                                                                          │
+│ Additionally, Meta offers other targeting options such as behavior targeting, custom audiences (based on │
+│ your own data), lookalike audiences (similar to your best customers), and retargeting to people who have │
+│ interacted with your business online or offline. These options allow for a high degree of specificity    │
+│ and effectiveness in reaching the right people with your ads.                                            │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+Sources/Context Used:
+1. meta_ads_best_practices.md
+2. meta_ads_best_practices.md
+3. meta_ads_best_practices.md
+4. meta_ads_best_practices.md
+5. meta_ads_best_practices.md

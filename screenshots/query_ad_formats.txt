@@ -1,0 +1,19 @@
+╭────────────────────────────────────────────── 🤖 Response ───────────────────────────────────────────────╮
+│ The best ad formats for Meta ads, as outlined in the retrieved information, include:                     │
+│                                                                                                          │
+│ - **Image ads**: These should have simple, clear visuals with minimal text.                              │
+│ - **Video ads**: It's recommended to keep them under 15 seconds for the highest completion rates.        │
+│ - **Carousel ads**: These are useful for showcasing multiple products or features.                       │
+│ - **Collection ads**: These are ideal for providing a shopping experience.                               │
+│                                                                                                          │
+│ Each ad format can be effective depending on the campaign objectives and the creative strategy. It's     │
+│ important to choose the format that best aligns with the goals of your campaign and the preferences of   │
+│ your target audience.                                                                                    │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+Sources/Context Used:
+1. meta_ads_best_practices.md
+2. meta_ads_best_practices.md
+3. meta_ads_best_practices.md
+4. meta_ads_best_practices.md
+5. meta_ads_best_practices.md

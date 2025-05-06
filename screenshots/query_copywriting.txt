@@ -1,0 +1,41 @@
+╭────────────────────────────────────────────── 🤖 Response ───────────────────────────────────────────────╮
+│ The best practices for ad copywriting on Meta, as outlined in the provided documents, include the        │
+│ following guidelines:                                                                                    │
+│                                                                                                          │
+│ ### Headlines:                                                                                           │
+│ - Keep your headlines concise, aiming for 5-6 words.                                                     │
+│ - Stay within a character limit of 40 characters, although 25 characters are recommended for optimal     │
+│ readability.                                                                                             │
+│                                                                                                          │
+│ ### Primary Text:                                                                                        │
+│ - Write 1-2 short sentences for your primary text.                                                       │
+│ - Keep the character count to 125 characters or less to ensure your message is clear and to the point.   │
+│                                                                                                          │
+│ ### Description:                                                                                         │
+│ - Limit your description to 30 characters or less.                                                       │
+│ - This should be a brief and impactful statement that supports the headline and primary text.            │
+│                                                                                                          │
+│ ### Call-to-Action (CTA):                                                                                │
+│ - Use clear, action-oriented buttons that instruct the user on what to do next.                          │
+│ - Choose from predefined options such as BOOK_TRAVEL, SHOP_NOW, LEARN_MORE, SIGN_UP, etc., depending on  │
+│ the goal of your ad.                                                                                     │
+│                                                                                                          │
+│ ### General Tips:                                                                                        │
+│ - Ensure your ad copy is relevant to your audience and aligns with the visual creative.                  │
+│ - Avoid using jargon or complex language that might confuse your audience.                               │
+│ - Highlight the benefits or unique selling points of your product or service to entice users to take     │
+│ action.                                                                                                  │
+│ - Test different versions of your ad copy using A/B testing to determine what resonates best with your   │
+│ audience. Remember to test one variable at a time and run tests for at least 4 days to ensure            │
+│ statistical significance.                                                                                │
+│                                                                                                          │
+│ By following these guidelines, you can create effective ad copy that captures attention, communicates    │
+│ your message clearly, and encourages users to take the desired action.                                   │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+Sources/Context Used:
+1. meta_ads_best_practices.md
+2. meta_ads_best_practices.md
+3. meta_ads_best_practices.md
+4. meta_ads_best_practices.md
+5. meta_ads_best_practices.md

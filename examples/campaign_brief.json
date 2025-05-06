@@ -1,0 +1,18 @@
+{
+  "platform": "Meta",
+  "product_name": "EcoFresh Water Bottle",
+  "product_description": "A sustainable, insulated water bottle that keeps drinks cold for 24 hours or hot for 12 hours. Made from recycled materials with a portion of proceeds supporting clean water initiatives.",
+  "objective": "OUTCOME_SALES",
+  "daily_budget": 25.0,
+  "start_date": "2023-11-01",
+  "end_date": "2023-11-30",
+  "target_audience": "Environmentally-conscious consumers aged 25-45 who are interested in fitness, outdoor activities, and sustainable products.",
+  "age_min": 25,
+  "age_max": 45,
+  "gender": "All",
+  "locations": "United States, Canada, Australia",
+  "brand_voice": "Friendly, eco-conscious, and inspirational. We focus on the positive impact of sustainable choices.",
+  "key_selling_points": "Eco-friendly materials, temperature retention, supports clean water initiatives, stylish design, multiple color options",
+  "call_to_action": "SHOP_NOW",
+  "website_url": "https://www.ecofreshbottle.com/shop"
+} 

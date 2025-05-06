@@ -1,0 +1,42 @@
+╭──────────────────────────────────────────────────────────────── 🤖 Response ─────────────────────────────────────────────────────────────────╮
+│ When creating ads for Meta platforms, you should be aware of the following compliance and policy issues:                                     │
+│                                                                                                                                              │
+│ ### Special Ad Categories                                                                                                                    │
+│ Ads that fall into certain categories require special treatment due to their sensitive nature. These categories include:                     │
+│                                                                                                                                              │
+│ - Housing                                                                                                                                    │
+│ - Employment                                                                                                                                 │
+│ - Credit                                                                                                                                     │
+│ - Social issues, elections, or politics                                                                                                      │
+│ - Health                                                                                                                                     │
+│                                                                                                                                              │
+│ ### Prohibited Content                                                                                                                       │
+│ Meta prohibits ads that contain or relate to the following:                                                                                  │
+│                                                                                                                                              │
+│ - Illegal products or services                                                                                                               │
+│ - Discriminatory content                                                                                                                     │
+│ - Tobacco and related products                                                                                                               │
+│ - Drugs and drug-related products                                                                                                            │
+│ - Unsafe supplements                                                                                                                         │
+│ - Weapons, ammunition, or explosives                                                                                                         │
+│ - Adult content                                                                                                                              │
+│ - Misleading or false content                                                                                                                │
+│ - Controversial content                                                                                                                      │
+│                                                                                                                                              │
+│ ### Ad Review Process                                                                                                                        │
+│ After you submit your ad, it will go through a review process:                                                                               │
+│                                                                                                                                              │
+│ - Most ads are reviewed within 24 hours.                                                                                                     │
+│ - Ads that are complex or sensitive may take longer to review.                                                                               │
+│ - If your ad is rejected, you have the option to appeal the decision.                                                                        │
+│                                                                                                                                              │
+│ It's important to familiarize yourself with Meta's advertising policies in detail to ensure that your ads comply with all guidelines and     │
+│ avoid any potential issues that could lead to ad rejection or other penalties.                                                               │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+Sources/Context Used:
+1. meta_ads_best_practices.md
+2. meta_ads_best_practices.md
+3. meta_ads_best_practices.md
+4. meta_ads_best_practices.md
+5. meta_ads_best_practices.md

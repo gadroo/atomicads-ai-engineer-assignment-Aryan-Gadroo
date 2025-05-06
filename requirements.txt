@@ -1,0 +1,12 @@
+openai>=1.0.0
+pinecone>=2.2.1
+python-dotenv>=1.0.0
+typer>=0.9.0
+rich>=13.5.0
+pydantic>=2.0.0
+requests>=2.31.0
+facebook-business>=16.0.2
+pytest>=7.4.0
+tenacity>=8.2.2
+numpy>=1.24.0
+tiktoken>=0.4.0 
