@@ -1,0 +1,14 @@
+{
+  "name": "Discover Our Premium Organic Skincare - Creative",
+  "object_story_spec": {
+    "page_id": "{{page_id}}",
+    "link_data": {
+      "name": "Glow Naturally with Our Organic Skincare",
+      "message": "Experience the best of nature with our premium organic skincare line. Perfect for your natural beauty routine!",
+      "link": "https://www.example.com/shop",
+      "call_to_action": {
+        "type": "Shop Now"
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Premium Fitness Equipment Ad",
+  "adset_id": "{{ad_set_id}}",
+  "creative": {
+    "creative_id": "{{creative_id}}"
+  },
+  "status": "PAUSED"
+}

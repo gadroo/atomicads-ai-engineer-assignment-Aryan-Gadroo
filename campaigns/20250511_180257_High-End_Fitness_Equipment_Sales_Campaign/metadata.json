@@ -1,0 +1,30 @@
+{
+  "generated_at": "2025-05-11T18:02:57.994075",
+  "query": "Generate a Meta ad campaign for a high-end fitness equipment brand targeting fitness enthusiasts aged 28-50 who are interested in home workouts",
+  "campaign_name": "High-End Fitness Equipment Sales Campaign",
+  "objective": "OUTCOME_SALES",
+  "target_audience": "The target audience consists of fitness enthusiasts aged 28-50, which aligns well with the demographic that invests in high-end fitness equipment for home workouts. This age range is likely to have the disposable income necessary for premium products.",
+  "budget": {
+    "amount": 1000,
+    "type": "LIFETIME"
+  },
+  "status": "draft",
+  "api_calls": {
+    "campaign": {
+      "status": "pending",
+      "id": null
+    },
+    "ad_set": {
+      "status": "pending",
+      "id": null
+    },
+    "ad_creative": {
+      "status": "pending",
+      "id": null
+    },
+    "ad": {
+      "status": "pending",
+      "id": null
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Women 25-45 Natural Beauty Interests",
+  "campaign_id": "{{campaign_id}}",
+  "optimization_goal": "CONVERSIONS",
+  "billing_event": "IMPRESSIONS",
+  "bid_strategy": "LOWEST_COST",
+  "daily_budget": 1000,
+  "status": "PAUSED",
+  "targeting": {
+    "geo_locations": {
+      "countries": [
+        "US"
+      ]
+    },
+    "age_min": 25,
+    "age_max": 45,
+    "genders": [
+      1,
+      2
+    ],
+    "flexible_spec": [
+      {
+        "interests": [
+          {
+            "id": "6003139266461",
+            "name": "Natural beauty"
+          },
+          {
+            "id": "6003139266462",
+            "name": "Organic skincare"
+          },
+          {
+            "id": "6003139266463",
+            "name": "Beauty products"
+          }
+        ]
+      }
+    ]
+  },
+  "attribution_spec": [
+    {
+      "event_type": "CLICK_THROUGH",
+      "window_days": 7
+    },
+    {
+      "event_type": "VIEW_THROUGH",
+      "window_days": 1
+    }
+  ],
+  "placements": {
+    "facebook": [
+      "feed",
+      "marketplace"
+    ],
+    "instagram": [
+      "stream",
+      "explore"
+    ],
+    "audience_network": [],
+    "messenger": []
+  },
+  "start_time": "2023-10-01T00:00:00-0700",
+  "end_time": "2023-10-31T23:59:59-0700"
+}

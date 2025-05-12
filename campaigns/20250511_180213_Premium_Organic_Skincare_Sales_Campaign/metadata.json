@@ -1,0 +1,30 @@
+{
+  "generated_at": "2025-05-11T18:02:13.886326",
+  "query": "Generate a Meta ad campaign for a premium organic skincare brand targeting women aged 25-45 interested in natural beauty products",
+  "campaign_name": "Premium Organic Skincare Sales Campaign",
+  "objective": "OUTCOME_SALES",
+  "target_audience": "Targeting women aged 25-45 aligns with the demographic that is most likely to purchase premium organic skincare products. The interests selected focus on natural beauty and eco-friendly products, which resonate with the brand's values.",
+  "budget": {
+    "amount": 1000,
+    "type": "LIFETIME"
+  },
+  "status": "draft",
+  "api_calls": {
+    "campaign": {
+      "status": "pending",
+      "id": null
+    },
+    "ad_set": {
+      "status": "pending",
+      "id": null
+    },
+    "ad_creative": {
+      "status": "pending",
+      "id": null
+    },
+    "ad": {
+      "status": "pending",
+      "id": null
+    }
+  }
+}

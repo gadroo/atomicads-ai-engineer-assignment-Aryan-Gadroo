@@ -1,0 +1,8 @@
+{
+  "name": "High-End Fitness Equipment Sales Campaign",
+  "objective": "OUTCOME_SALES",
+  "status": "PAUSED",
+  "special_ad_categories": [],
+  "campaign_budget_optimization_on": true,
+  "account_id": "{{account_id}}"
+}

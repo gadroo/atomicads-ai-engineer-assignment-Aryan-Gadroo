@@ -1,0 +1,39 @@
+{
+  "name": "Homeowners 30-55 Targeting",
+  "campaign_id": "{{campaign_id}}",
+  "optimization_goal": "OFFSITE_CONVERSIONS",
+  "billing_event": "IMPRESSIONS",
+  "bid_strategy": "LOWEST_COST",
+  "daily_budget": 1000,
+  "targeting": {
+    "geo_locations": {
+      "countries": [
+        "US"
+      ]
+    },
+    "age_min": 30,
+    "age_max": 55,
+    "genders": [
+      1,
+      2
+    ],
+    "interests": [
+      {
+        "id": "6003139266461",
+        "name": "Home Security"
+      },
+      {
+        "id": "6003139266462",
+        "name": "Smart Home"
+      },
+      {
+        "id": "6003139266463",
+        "name": "Technology"
+      }
+    ],
+    "exclusions": {},
+    "custom_audiences": []
+  },
+  "start_time": "2023-10-01T00:00:00-0700",
+  "end_time": "2023-10-31T23:59:59-0700"
+}

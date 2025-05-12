@@ -1,0 +1,23 @@
+{
+  "name": "Discover Your Natural Glow - Creative",
+  "object_story_spec": {
+    "page_id": "{{page_id}}",
+    "link_data": {
+      "name": "Unlock Your Skin's Potential",
+      "message": "Experience the purity of our premium organic skincare line. Nourish your skin with nature's best ingredients.",
+      "link": "https://www.example.com/shop",
+      "call_to_action": {
+        "type": "SHOP_NOW"
+      },
+      "image_hash": "{{image_hash}}"
+    }
+  },
+  "account_id": "{{account_id}}",
+  "asset_customization_specs": {
+    "description_specs": [
+      {
+        "description": ""
+      }
+    ]
+  }
+}

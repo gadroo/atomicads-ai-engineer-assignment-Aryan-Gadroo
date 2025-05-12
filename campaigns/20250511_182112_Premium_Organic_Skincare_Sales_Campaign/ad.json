@@ -1,0 +1,18 @@
+{
+  "name": "Discover Our Premium Organic Skincare",
+  "adset_id": "{{adset_id}}",
+  "creative": {
+    "creative_id": "{{creative_id}}"
+  },
+  "status": "PAUSED",
+  "tracking_specs": [
+    {
+      "action.type": [
+        "offsite_conversion"
+      ],
+      "fb_pixel": [
+        "{{pixel_id}}"
+      ]
+    }
+  ]
+}

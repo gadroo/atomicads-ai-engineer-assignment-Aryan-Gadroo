@@ -1,0 +1,14 @@
+{
+  "name": "Smart Security Camera Ad - Creative",
+  "object_story_spec": {
+    "page_id": "{{page_id}}",
+    "link_data": {
+      "name": "Protect Your Home with AI",
+      "message": "Experience peace of mind with our smart security camera featuring advanced AI technology. Monitor your home anytime, anywhere.",
+      "link": "https://www.example.com/smart-security-camera",
+      "call_to_action": {
+        "type": "Shop Now"
+      }
+    }
+  }
+}

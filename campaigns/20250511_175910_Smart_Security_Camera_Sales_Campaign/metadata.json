@@ -1,0 +1,30 @@
+{
+  "generated_at": "2025-05-11T17:59:10.462567",
+  "query": "Generate a Meta ad campaign for a smart security camera with AI features targeting homeowners aged 30-55",
+  "campaign_name": "Smart Security Camera Sales Campaign",
+  "objective": "OUTCOME_SALES",
+  "target_audience": "Targeting homeowners aged 30-55 aligns with the demographic most likely to invest in home security solutions. This age group typically has the financial means and concern for home safety.",
+  "budget": {
+    "amount": 1000,
+    "type": "LIFETIME"
+  },
+  "status": "draft",
+  "api_calls": {
+    "campaign": {
+      "status": "pending",
+      "id": null
+    },
+    "ad_set": {
+      "status": "pending",
+      "id": null
+    },
+    "ad_creative": {
+      "status": "pending",
+      "id": null
+    },
+    "ad": {
+      "status": "pending",
+      "id": null
+    }
+  }
+}

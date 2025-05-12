@@ -1,0 +1,23 @@
+{
+  "name": "Discover Your Natural Glow - Creative",
+  "object_story_spec": {
+    "page_id": "{{page_id}}",
+    "link_data": {
+      "name": "Unlock Radiant Skin with Our Organic Range",
+      "message": "Experience the power of nature with our premium organic skincare products. Perfect for enhancing your natural beauty!",
+      "link": "https://www.premiumskincare.com",
+      "call_to_action": {
+        "type": "SHOP_NOW"
+      },
+      "image_hash": "{{image_hash}}"
+    }
+  },
+  "account_id": "{{account_id}}",
+  "asset_customization_specs": {
+    "description_specs": [
+      {
+        "description": ""
+      }
+    ]
+  }
+}

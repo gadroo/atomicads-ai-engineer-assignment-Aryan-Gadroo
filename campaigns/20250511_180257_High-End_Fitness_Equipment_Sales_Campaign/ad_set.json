@@ -1,0 +1,41 @@
+{
+  "name": "Fitness Enthusiasts Targeting",
+  "campaign_id": "{{campaign_id}}",
+  "optimization_goal": "OFFSITE_CONVERSIONS",
+  "billing_event": "IMPRESSIONS",
+  "bid_strategy": "LOWEST_COST",
+  "daily_budget": 1000,
+  "targeting": {
+    "geo_locations": {
+      "countries": [
+        "US"
+      ]
+    },
+    "age_min": 28,
+    "age_max": 50,
+    "genders": [
+      1,
+      2
+    ],
+    "flexible_spec": [
+      {
+        "interests": [
+          {
+            "id": "6003139266461",
+            "name": "Fitness and wellness"
+          },
+          {
+            "id": "6003139266462",
+            "name": "Home workouts"
+          },
+          {
+            "id": "6003139266463",
+            "name": "High-end fitness equipment"
+          }
+        ]
+      }
+    ]
+  },
+  "start_time": "2023-10-01T00:00:00-0700",
+  "end_time": "2023-10-31T23:59:59-0700"
+}

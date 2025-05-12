@@ -1,0 +1,101 @@
+{
+  "generated_at": "2025-05-11T18:29:15.048682",
+  "query": "Generate a Meta ad campaign for a high-end fitness equipment brand targeting fitness enthusiasts aged 28-50 interested in home workouts and premium fitness gear",
+  "campaign_name": "High-End Fitness Equipment Sales Campaign",
+  "objective": "OUTCOME_SALES",
+  "target_audience": "Targeting fitness enthusiasts aged 28-50 aligns with the demographic most likely to invest in premium fitness gear. The interests selected focus on home workouts and premium fitness, ensuring relevance.",
+  "budget": {
+    "amount": 1000,
+    "type": "LIFETIME"
+  },
+  "status": "draft",
+  "api_calls": {
+    "campaign": {
+      "status": "pending",
+      "id": null
+    },
+    "adset": {
+      "status": "pending",
+      "id": null
+    },
+    "ad_creative": {
+      "status": "pending",
+      "id": null
+    },
+    "ad": {
+      "status": "pending",
+      "id": null
+    }
+  },
+  "required_placeholders": {
+    "account_id": {
+      "files": [
+        "campaign.json",
+        "ad_creative.json"
+      ],
+      "description": "Account ID for API submission",
+      "dependency": null,
+      "required_before": "any API calls"
+    },
+    "campaign_id": {
+      "files": [
+        "adset.json"
+      ],
+      "description": "ID of the created campaign",
+      "dependency": null,
+      "required_before": "adset creation"
+    },
+    "page_id": {
+      "files": [
+        "ad_creative.json"
+      ],
+      "description": "ID of the Facebook Page",
+      "dependency": null,
+      "required_before": "creative creation"
+    },
+    "image_hash": {
+      "files": [
+        "ad_creative.json"
+      ],
+      "description": "Hash of uploaded image",
+      "dependency": null,
+      "required_before": "creative creation"
+    },
+    "adset_id": {
+      "files": [
+        "ad.json"
+      ],
+      "description": "ID of the created adset",
+      "dependency": "campaign_id",
+      "required_before": "ad creation"
+    },
+    "creative_id": {
+      "files": [
+        "ad.json"
+      ],
+      "description": "ID of the created ad creative",
+      "dependency": "page_id",
+      "required_before": "ad creation"
+    },
+    "pixel_id": {
+      "files": [
+        "ad.json"
+      ],
+      "description": "Facebook Pixel ID for tracking",
+      "dependency": null,
+      "required_before": "ad creation"
+    }
+  },
+  "api_notes": {
+    "placeholder_requirements": "All placeholders must be replaced with valid IDs before API submission",
+    "id_validation": "Ensure all referenced IDs (interests, page, ad creative) exist and are accessible",
+    "creation_order": [
+      "1. Upload images to get image_hash",
+      "2. Create campaign and get campaign_id",
+      "3. Create adset using campaign_id",
+      "4. Create ad creative using page_id and image_hash",
+      "5. Create ad using adset_id and creative_id"
+    ],
+    "api_version": "v18.0 (as of May 2025)"
+  }
+}

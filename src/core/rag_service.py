@@ -1,6 +1,10 @@
 import json
 import logging
 import uuid
+<<<<<<< HEAD
+=======
+import os
+>>>>>>> e6be9c0 (output structure changes)
 from typing import List, Dict, Any, Optional, Tuple
 
 from src.models.openai_service import OpenAIService
@@ -135,7 +139,11 @@ class RAGService:
             campaign_brief: Dictionary containing campaign brief information
             
         Returns:
+<<<<<<< HEAD
             Dict[str, Any]: Campaign specification
+=======
+            Dict[str, Any]: Campaign specification in Meta API format
+>>>>>>> e6be9c0 (output structure changes)
         """
         try:
             # Convert campaign brief to a query string
@@ -168,6 +176,13 @@ class RAGService:
             # Parse and validate the response
             campaign_spec = json.loads(response)
             
+<<<<<<< HEAD
+=======
+            # Ensure the response has the required Meta API structure
+            if not self._validate_meta_api_structure(campaign_spec):
+                raise ValueError("Generated campaign specification does not match Meta API structure")
+            
+>>>>>>> e6be9c0 (output structure changes)
             return campaign_spec
         except Exception as e:
             logger.error(f"Failed to generate campaign: {str(e)}")
@@ -396,4 +411,62 @@ Retrieved information:
             
         except Exception as e:
             logger.error(f"Error during query: {str(e)}")
+<<<<<<< HEAD
             return f"An error occurred: {str(e)}" 
+=======
+            return f"An error occurred: {str(e)}" 
+
+    def _validate_meta_api_structure(self, campaign_spec: Dict[str, Any]) -> bool:
+        """Validate that the campaign specification matches Meta API structure.
+        
+        Args:
+            campaign_spec: Campaign specification dictionary
+            
+        Returns:
+            bool: True if valid, False otherwise
+        """
+        required_sections = ["campaign", "ad_set", "ad"]
+        required_campaign_fields = ["name", "objective", "status"]
+        required_ad_set_fields = ["name", "optimization_goal", "billing_event", "bid_strategy", "budget", "targeting"]
+        required_ad_fields = ["name", "creative"]
+        
+        # Check required sections
+        if not all(section in campaign_spec for section in required_sections):
+            return False
+            
+        # Check campaign fields
+        if not all(field in campaign_spec["campaign"] for field in required_campaign_fields):
+            return False
+            
+        # Check ad set fields
+        if not all(field in campaign_spec["ad_set"] for field in required_ad_set_fields):
+            return False
+            
+        # Check ad fields
+        if not all(field in campaign_spec["ad"] for field in required_ad_fields):
+            return False
+            
+        return True
+
+    def save_campaign_spec(self, campaign_spec: Dict[str, Any], output_file: str) -> bool:
+        """Save campaign specification to a JSON file.
+        
+        Args:
+            campaign_spec: Campaign specification dictionary
+            output_file: Path to output file
+            
+        Returns:
+            bool: True if successful, False otherwise
+        """
+        try:
+            dir_name = os.path.dirname(output_file)
+            if dir_name:  # Only make directories if there is a directory part
+                os.makedirs(dir_name, exist_ok=True)
+            with open(output_file, 'w') as f:
+                json.dump(campaign_spec, f, indent=2)
+            logger.info(f"Campaign specification saved to {output_file}")
+            return True
+        except Exception as e:
+            logger.error(f"Failed to save campaign specification: {str(e)}")
+            return False 
+>>>>>>> e6be9c0 (output structure changes)

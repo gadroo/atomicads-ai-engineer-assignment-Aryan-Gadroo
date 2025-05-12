@@ -1,0 +1,14 @@
+{
+  "name": "Boost Your Team's Productivity - Creative",
+  "object_story_spec": {
+    "page_id": "{{page_id}}",
+    "link_data": {
+      "name": "Transform Your Project Management",
+      "message": "Discover how our cloud-based project management software can streamline your workflow and enhance team collaboration. Start your free trial today!",
+      "link": "https://www.example.com/free-trial",
+      "call_to_action": {
+        "type": "Sign Up"
+      }
+    }
+  }
+}

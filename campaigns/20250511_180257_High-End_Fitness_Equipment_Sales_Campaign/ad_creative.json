@@ -1,0 +1,14 @@
+{
+  "name": "Premium Fitness Equipment Ad - Creative",
+  "object_story_spec": {
+    "page_id": "{{page_id}}",
+    "link_data": {
+      "name": "Elevate Your Home Workouts",
+      "message": "Discover our high-end fitness equipment designed for serious fitness enthusiasts. Transform your home into a personal gym with our premium range.",
+      "link": "https://www.highendfitness.com/shop",
+      "call_to_action": {
+        "type": "Shop Now"
+      }
+    }
+  }
+}

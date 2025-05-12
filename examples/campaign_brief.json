@@ -1,5 +1,6 @@
 {
   "platform": "Meta",
+<<<<<<< HEAD
   "product_name": "EcoFresh Water Bottle",
   "product_description": "A sustainable, insulated water bottle that keeps drinks cold for 24 hours or hot for 12 hours. Made from recycled materials with a portion of proceeds supporting clean water initiatives.",
   "objective": "OUTCOME_SALES",
@@ -15,4 +16,23 @@
   "key_selling_points": "Eco-friendly materials, temperature retention, supports clean water initiatives, stylish design, multiple color options",
   "call_to_action": "SHOP_NOW",
   "website_url": "https://www.ecofreshbottle.com/shop"
+=======
+  "product_name": "Sample Product",
+  "product_description": "A high-quality product that solves customer problems",
+  "objective": "OUTCOME_SALES",
+  "daily_budget": 1.0,
+  "start_date": "2024-05-01",
+  "end_date": "2024-05-31",
+  "target_audience": "Professionals aged 25-45 interested in productivity tools",
+  "age_min": 25,
+  "age_max": 45,
+  "gender": 1,
+  "locations": "United States, Canada",
+  "brand_voice": "Professional and trustworthy",
+  "key_selling_points": "Easy to use, Saves time, Increases productivity",
+  "call_to_action": "LEARN_MORE",
+  "website_url": "https://example.com",
+  "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
+  "budget_type": "daily"
+>>>>>>> e6be9c0 (output structure changes)
 } 

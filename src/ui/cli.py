@@ -24,7 +24,10 @@ logger = logging.getLogger(__name__)
 app = typer.Typer(help="AI-Powered Meta Ads Campaign Generator")
 console = Console()
 
+<<<<<<< HEAD
 @app.command()
+=======
+>>>>>>> e6be9c0 (output structure changes)
 def create_campaign(
     interactive: bool = typer.Option(
         True, "--interactive/--no-interactive", "-i/-n", 
@@ -35,7 +38,11 @@ def create_campaign(
         help="JSON file containing campaign brief"
     ),
     output_file: Optional[str] = typer.Option(
+<<<<<<< HEAD
         None, "--output", "-o", 
+=======
+        "campaign_spec.json", "--output", "-o", 
+>>>>>>> e6be9c0 (output structure changes)
         help="Output file for generated campaign specification"
     ),
     execute: bool = typer.Option(
@@ -80,6 +87,7 @@ def create_campaign(
             campaign_spec = rag_service.generate_campaign(campaign_brief)
             progress.update(task, advance=1)
         
+<<<<<<< HEAD
         # Validate campaign specification
         console.print("\n[bold]Validating campaign specification...[/bold]")
         is_valid, validation_results = CampaignValidator.validate_campaign_specification(campaign_spec)
@@ -97,16 +105,32 @@ def create_campaign(
                 raise typer.Exit(code=1)
         else:
             console.print("[bold green]Campaign specification is valid![/bold green]")
+=======
+        # Check if generation was successful
+        if "error" in campaign_spec:
+            console.print(f"[bold red]Error generating campaign:[/bold red] {campaign_spec['error']}")
+            raise typer.Exit(code=1)
+        
+        # Save specification to file
+        if rag_service.save_campaign_spec(campaign_spec, output_file):
+            console.print(f"\n[bold green]Campaign specification saved to {output_file}[/bold green]")
+        else:
+            console.print("[bold red]Failed to save campaign specification[/bold red]")
+            raise typer.Exit(code=1)
+>>>>>>> e6be9c0 (output structure changes)
         
         # Display campaign specification summary
         _display_campaign_summary(campaign_spec)
         
+<<<<<<< HEAD
         # Save specification if requested
         if output_file:
             with open(output_file, 'w') as f:
                 json.dump(campaign_spec, f, indent=2)
             console.print(f"\n[bold green]Campaign specification saved to {output_file}[/bold green]")
         
+=======
+>>>>>>> e6be9c0 (output structure changes)
         # Execute campaign creation if requested
         if execute:
             _execute_campaign(campaign_spec)
@@ -118,6 +142,12 @@ def create_campaign(
         console.print(f"[bold red]Error:[/bold red] {str(e)}")
         raise typer.Exit(code=1)
 
+<<<<<<< HEAD
+=======
+# Register the command
+app.command()(create_campaign)
+
+>>>>>>> e6be9c0 (output structure changes)
 def _collect_campaign_brief_interactive() -> Dict[str, Any]:
     """Collect campaign brief information interactively.
     

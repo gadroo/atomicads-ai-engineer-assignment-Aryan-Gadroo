@@ -1,0 +1,54 @@
+{
+  "generated_at": "2025-05-11T18:06:17.326455",
+  "query": "Generate a Meta ad campaign for a cloud-based project management software targeting business owners and managers aged 35-60 who are interested in productivity tools",
+  "campaign_name": "Cloud Project Management Software Sales Campaign",
+  "objective": "OUTCOME_SALES",
+  "target_audience": "Targeting business owners and managers aged 35-60 aligns with the typical demographic that utilizes project management tools, ensuring relevance and engagement.",
+  "budget": {
+    "amount": 1000,
+    "type": "LIFETIME"
+  },
+  "status": "draft",
+  "api_calls": {
+    "campaign": {
+      "status": "pending",
+      "id": null
+    },
+    "ad_set": {
+      "status": "pending",
+      "id": null
+    },
+    "ad_creative": {
+      "status": "pending",
+      "id": null
+    },
+    "ad": {
+      "status": "pending",
+      "id": null
+    }
+  },
+  "required_placeholders": {
+    "campaign_id": [
+      "ad_set.json"
+    ],
+    "page_id": [
+      "ad_creative.json"
+    ],
+    "ad_set_id": [
+      "ad.json"
+    ],
+    "creative_id": [
+      "ad.json"
+    ]
+  },
+  "api_notes": {
+    "placeholder_requirements": "All placeholders must be replaced with valid IDs before API submission",
+    "id_validation": "Ensure all referenced IDs (interests, page, ad creative) exist and are accessible",
+    "creation_order": [
+      "1. Create campaign and get campaign_id",
+      "2. Create ad set using campaign_id",
+      "3. Create ad creative using page_id",
+      "4. Create ad using ad_set_id and creative_id"
+    ]
+  }
+}

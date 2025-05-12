@@ -1,0 +1,64 @@
+{
+  "name": "Fitness Enthusiasts Targeting",
+  "campaign_id": "{{campaign_id}}",
+  "optimization_goal": "CONVERSIONS",
+  "billing_event": "IMPRESSIONS",
+  "bid_strategy": "LOWEST_COST",
+  "lifetime_budget": 1000,
+  "status": "PAUSED",
+  "targeting": {
+    "geo_locations": {
+      "countries": [
+        "US"
+      ]
+    },
+    "age_min": 28,
+    "age_max": 50,
+    "genders": [
+      1,
+      2
+    ],
+    "flexible_spec": [
+      {
+        "interests": [
+          {
+            "id": "6003139266461",
+            "name": "Beauty Products"
+          },
+          {
+            "id": "6003139266462",
+            "name": "Skincare"
+          },
+          {
+            "id": "6003139266463",
+            "name": "Natural Beauty"
+          }
+        ]
+      }
+    ]
+  },
+  "attribution_spec": [
+    {
+      "event_type": "CLICK_THROUGH",
+      "window_days": 7
+    },
+    {
+      "event_type": "VIEW_THROUGH",
+      "window_days": 1
+    }
+  ],
+  "placements": {
+    "facebook": [
+      "feed",
+      "marketplace"
+    ],
+    "instagram": [
+      "stream",
+      "explore"
+    ],
+    "audience_network": [],
+    "messenger": []
+  },
+  "start_time": "2025-05-12T00:00:00-0700",
+  "end_time": "2025-06-11T23:59:59-0700"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Mess-Free Cooking Made Easy - Creative",
+  "object_story_spec": {
+    "page_id": "{{page_id}}",
+    "link_data": {
+      "name": "Cook Clean, Eat Clean!",
+      "message": "Discover delicious recipes that keep your kitchen spotless. Perfect for clean freaks who love to cook without the mess!",
+      "link": "https://www.example.com/cookbook",
+      "call_to_action": {
+        "type": "SHOP_NOW"
+      },
+      "image_hash": "{{image_hash}}"
+    }
+  },
+  "account_id": "{{account_id}}",
+  "asset_customization_specs": {
+    "description_specs": [
+      {
+        "description": "Transform your home into a premium fitness space with our high-end equipment, designed for serious fitness enthusiasts."
+      }
+    ]
+  }
+}
