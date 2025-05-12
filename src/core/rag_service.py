@@ -1,10 +1,7 @@
 import json
 import logging
 import uuid
-<<<<<<< HEAD
-=======
 import os
->>>>>>> e6be9c0 (output structure changes)
 from typing import List, Dict, Any, Optional, Tuple
 
 from src.models.openai_service import OpenAIService
@@ -139,11 +136,7 @@ class RAGService:
             campaign_brief: Dictionary containing campaign brief information
             
         Returns:
-<<<<<<< HEAD
-            Dict[str, Any]: Campaign specification
-=======
             Dict[str, Any]: Campaign specification in Meta API format
->>>>>>> e6be9c0 (output structure changes)
         """
         try:
             # Convert campaign brief to a query string
@@ -176,13 +169,10 @@ class RAGService:
             # Parse and validate the response
             campaign_spec = json.loads(response)
             
-<<<<<<< HEAD
-=======
             # Ensure the response has the required Meta API structure
             if not self._validate_meta_api_structure(campaign_spec):
                 raise ValueError("Generated campaign specification does not match Meta API structure")
             
->>>>>>> e6be9c0 (output structure changes)
             return campaign_spec
         except Exception as e:
             logger.error(f"Failed to generate campaign: {str(e)}")
@@ -411,10 +401,7 @@ Retrieved information:
             
         except Exception as e:
             logger.error(f"Error during query: {str(e)}")
-<<<<<<< HEAD
-            return f"An error occurred: {str(e)}" 
-=======
-            return f"An error occurred: {str(e)}" 
+            return f"An error occurred: {str(e)}"
 
     def _validate_meta_api_structure(self, campaign_spec: Dict[str, Any]) -> bool:
         """Validate that the campaign specification matches Meta API structure.
@@ -468,5 +455,4 @@ Retrieved information:
             return True
         except Exception as e:
             logger.error(f"Failed to save campaign specification: {str(e)}")
-            return False 
->>>>>>> e6be9c0 (output structure changes)
+            return False
